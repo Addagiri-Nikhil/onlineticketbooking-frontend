@@ -1,0 +1,28 @@
+.counter-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .count {
+    font-size: 100px;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .lightblue {
+    background-color: lightblue;
+  }
+  
+  .lightgreen {
+    background-color: lightgreen;
+  }
+  
+  .lightcoral {
+    background-color: lightcoral;
+  }
+  

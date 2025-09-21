@@ -1,0 +1,53 @@
+.payment-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-options {
+    flex: 1;
+  }
+  
+  .upi-icons {
+    display: flex;
+    gap: 15px;
+    margin: 10px 0;
+  }
+  
+  .icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .net-banking-btn {
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .net-banking-btn:hover {
+    background-color: darkblue;
+  }
+  
+  .logo-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .logo {
+    max-width: 150px;
+    height: auto;
+  }
+  

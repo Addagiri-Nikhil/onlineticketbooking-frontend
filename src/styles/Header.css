@@ -1,0 +1,28 @@
+.header { 
+    background-color: white; 
+    color: #023203; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+} 
+
+.body { 
+    background-color: #a8e063; 
+    height: 600px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    font-size: 18px;
+    color: #023203;
+} 
+
+.footer { 
+    height: 50px; 
+    background-color: #023203; 
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    font-size: 16px;
+}

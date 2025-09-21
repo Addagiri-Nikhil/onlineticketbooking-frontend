@@ -1,0 +1,14 @@
+.header{ 
+    background-color: beige; 
+    color: rgb(2, 50, 3); 
+    display: flex; 
+    justify-content: space-evenly; 
+    padding: 20px; 
+} 
+.body{ 
+    background-color: greenyellow; 
+    height: 600px; 
+} 
+.footer{ 
+    height: 40px; 
+}

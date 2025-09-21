@@ -1,0 +1,79 @@
+/* General container styles */
+.theatre-list-container {
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  background: #121212; /* Dark background */
+  min-height: 100vh;
+  text-align: center;
+  color: #e0e0e0; /* Light text color */
+}
+
+/* Logo */
+.logo {
+  width: 90px;
+  margin-bottom: 90px;
+}
+
+/* Select Input */
+.select-input {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #333;
+  color: white;
+  width: 200px;
+}
+
+/* Time Buttons */
+.time-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  border: 2px solid #4fc3f7;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.time-btn:hover {
+  background-color: #444;
+  transform: translateY(-2px);
+}
+
+.time-btn.selected {
+  background: linear-gradient(145deg, #0a3d91, #1565c0);
+  border: none;
+  transform: scale(1.05);
+}
+
+/* Theatre Buttons */
+.theatre-btn {
+  background-color: #4fc3f7;
+  color: white;
+  font-size: 18px;
+  padding: 12px 25px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.theatre-btn:hover {
+  background-color: #1565c0;
+  transform: translateY(-3px);
+}
+
+/* Summary */
+.selection-summary {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #ccc;
+}
+
+.selection-summary p {
+  margin: 5px 0;
+  font-weight: bold;
+}

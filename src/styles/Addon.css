@@ -1,0 +1,113 @@
+/* General styles for addon container */
+.addon-container {
+  padding: 20px;
+  font-family: sans-serif;
+  background: #121212; /* Dark background for better contrast */
+  color: #e0e0e0; /* Light text */
+}
+
+/* Section for items (snakes) */
+.items-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+/* Item (snake) card styling */
+.item-card {
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 15px;
+  width: 120px;
+  text-align: center;
+  background: #2c2c2c; /* Dark background for each snake card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Snake images with different types */
+.item-img {
+  font-size: 30px;
+  display: block;
+  margin-top: 8px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Styling for different types of snakes */
+.snake-king-cobra {
+  background-color: #212121;
+  border: 1px solid #b9f3f0; /* Light cyan for King Cobra */
+}
+
+.snake-python {
+  background-color: #282828;
+  border: 1px solid #f2a900; /* Python has golden accents */
+}
+
+.snake-adder {
+  background-color: #333;
+  border: 1px solid #ff6347; /* Tomato red for Adder */
+}
+
+.snake-rattlesnake {
+  background-color: #2e2e2e;
+  border: 1px solid #dcdcdc; /* Light grey for Rattlesnake */
+}
+
+/* Button styling (Add and Remove buttons) */
+.btn {
+  padding: 3px 8px;
+  margin: 0 2px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.add {
+  background: #4caf50;
+  color: white;
+}
+
+.remove {
+  background: #f44336;
+  color: white;
+}
+
+/* Summary section styling */
+.summary-section {
+  border-top: 1px solid #444;
+  padding-top: 20px;
+}
+
+.summary-line {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.pay-button {
+  padding: 10px 25px;
+  background: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Optional: Snake type names styling */
+.item-details {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #ffcc00; /* Highlighted snake type names */
+}

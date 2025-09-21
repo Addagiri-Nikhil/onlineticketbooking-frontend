@@ -1,0 +1,95 @@
+/* Events.css - Dark mode blue/black theme */
+
+.events-container {
+  background-color: #0d0d0d;
+  color: #f0f0f0;
+  padding: 2rem;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.events-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.events-header h1 {
+  font-size: 2rem;
+  color: #00bfff;
+  border-left: 5px solid #00bfff;
+  padding-left: 0.6rem;
+}
+
+.back-button {
+  background-color: #00bfff;
+  color: #000;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #1ec8ff;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.event-card {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 12px rgba(0, 191, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(0, 191, 255, 0.3);
+}
+
+.event-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.event-info {
+  padding: 1rem;
+  background-color: #121212;
+  color: #e0e0e0;
+  font-size: 0.85rem;
+}
+
+.event-info h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #00bfff;
+  font-weight: 600;
+}
+
+.event-info p {
+  margin: 0.5rem 0 0;
+  color: #ccc;
+  font-size: 0.85rem;
+}
+
+/* Scrollbar for dark theme if needed */
+.events-grid::-webkit-scrollbar {
+  height: 6px;
+}
+.events-grid::-webkit-scrollbar-thumb {
+  background: #00bfff;
+  border-radius: 3px;
+}
+.events-grid::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
